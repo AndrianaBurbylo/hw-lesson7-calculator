@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+
+input {
+    max-width: 255px;
+    height: 30px;
+    margin: 5px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+}
+
+.numb {
+    background-color: #b2b2b2;
+}
+
+.operation {
+    background-color: #808182;
+}
+
+#count {
+    background-color: #7da4ce;
+}
+
+.active {
+    font-weight: bold;
+}
+
